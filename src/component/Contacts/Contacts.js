@@ -11,7 +11,10 @@ const Contacts = ({ contacts, deleteList }) => {
             <li className={s.li} key={e.id} id={e.id}>
               <span>
                 <span className={s.span}>{e.name}</span>
-                <span className={s.span2}>{e.number}</span>
+                <span className={s.span2}>
+                  {/* {e.number} */}
+                  <a href={`tel:${e.number}`}>{e.number}</a>
+                </span>
               </span>
               <button
                 className={s.button}

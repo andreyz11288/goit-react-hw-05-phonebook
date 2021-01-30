@@ -54,3 +54,7 @@
   display: inline-block;
   width: 300px;
 }
+.span2 a {
+  text-decoration: none;
+  color: inherit;
+}
